@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1400px;
+    width: var(--container-width);
     margin:auto;
 }
 ul.nav{
@@ -42,7 +42,7 @@ section.hero {
 }
 .heroContainer{
     margin: auto;
-    width: 1400px;
+    width: var(--container-width);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,7 +66,7 @@ section.hero {
     margin: 0;
 }
 .projects{
-    width: 1400px;
+    width: var(--container-width);
     margin: auto;
     margin-top: 60px;
 }
@@ -121,9 +121,10 @@ section.hero {
 footer{
     background: var(--Primary-gradient-rev);
     margin-top: 60px;
+    text-align: center
 }
 .footerContainer{
-    width: 1400px;
+    width: var(--container-width);
     margin: auto;
     padding: 30px;
     text-align: center;
@@ -147,6 +148,7 @@ footer{
     font-style: normal;
     font-weight: 400;
 }
+
 @media all and (max-width: 1400px) {
     .heroImage {
         width: 20%;
