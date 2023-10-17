@@ -56,7 +56,7 @@ section.hero {
     width: 647px;
 }
 .heroTitle{
-    font-size: var(--font-size-h1);
+    font-size: var(--font-size-h4);
     font-style: normal;
     font-weight: 600;
     margin-bottom: 20px;
@@ -71,9 +71,9 @@ section.hero {
     margin-top: 60px;
 }
 .sectionTitle{
-    font-size: var(--font-size-h2);
+    font-size: var(--font-size-h4);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 20px;
     margin-top: 0;
 }
@@ -97,7 +97,7 @@ section.hero {
     padding: 16px;
 }
 .cardTitle{
-    font-size: var(--font-size-h3);
+    font-size: var(--font-size-h5);
     font-style: normal;
     font-weight: 500;
     margin-bottom: 0.75rem;
@@ -146,7 +146,33 @@ footer{
 .footerCopy{
     font-size: var(--font-size-body-small);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400
+;
+}
+.navItem{
+    display: block;
+}
+.mobileMenu{
+    position: relative;
+}
+.mobileNav{
+    position: absolute;
+    right: 0;
+    top: 30px;
+    background-color: white;
+    width: 100vw;
+    display: none;
+}
+.mNavItem {
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-bottom: 1px solid var(--Primary-extra-light);
+    color: var(--Primary);
+}
+.mNavItem.selected{
+    font-weight: bold;
+    color:var(--Secondary-dark);
 }
 
 @media all and (max-width: 1400px) {
